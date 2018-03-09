@@ -5,6 +5,7 @@ public class Bank {
     private double balance;
     private double interest;
 
+
         public Bank(String name, double balance){
             this.balance = balance;
             this.interest = interest;
@@ -30,4 +31,9 @@ public class Bank {
 
             return balance;
         }
+
+        public double getBalance() {
+            return this.balance;
+        }
+
 }

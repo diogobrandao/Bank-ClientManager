@@ -8,8 +8,7 @@ public class Main {
         Bank bank1 = new Bank("mybank",500);
         Client name1 = new Client("Diogo",wallet1,bank1);
 
-        name1.withdrawlBank(34);
-
+        name1.withdrawlBank(550);
 
     }
 
